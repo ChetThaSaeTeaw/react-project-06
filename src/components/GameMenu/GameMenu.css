@@ -1,0 +1,30 @@
+:root {
+  --main_corlor: #c6a555;
+}
+
+.gamemenu_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.gamemenu_container > ul > li {
+  margin: 0 10px;
+  list-style: none;
+  display: inline;
+}
+
+.gamemenu_container > ul > li:hover a {
+  color: var(--main_corlor);
+}
+
+.gamemenu_container > ul > li > a {
+  text-decoration: none;
+  color: #fff6;
+  font-weight: bold;
+}
+
+.gamemenu_container > ul > li:first-child > a:first-child {
+  color: var(--main_corlor);
+}

@@ -1,0 +1,74 @@
+:root {
+  --main_corlor: #c6a555;
+}
+
+.navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 11vh;
+  border-bottom: 4px solid var(--main_corlor);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #000;
+}
+
+.navbar_container > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-left: -1%;
+}
+
+.navbar_container > div:first-child > img {
+  width: 17%;
+  cursor: pointer;
+}
+
+.navbar_container > div:first-child > a {
+  color: var(--main_corlor);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0 1.5%;
+}
+
+/*Static*/
+.navbar_container > div:first-child > a:nth-child(2) {
+  color: #fff;
+}
+
+.navbar_container > div:first-child > a:hover {
+  color: #fff;
+}
+
+.navbar_container > div:last-child {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 9%;
+}
+
+.navbar_container > div:last-child > div {
+  padding: 2.5% 2.5%;
+  cursor: pointer;
+  margin: 0 2%;
+}
+
+.navbar_container > div:last-child > div:last-child {
+  background-color: var(--main_corlor);
+  border-radius: 7px;
+}
+
+.navbar_container > div:last-child > div > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+}

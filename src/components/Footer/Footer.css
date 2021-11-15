@@ -1,0 +1,17 @@
+:root {
+  --footer_color: #c8c8c8;
+}
+
+.footer_contianer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  padding: 0.6%;
+}
+
+.footer_contianer > h6 {
+  color: var(--footer_color);
+}

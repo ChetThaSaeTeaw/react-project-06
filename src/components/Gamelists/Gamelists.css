@@ -1,0 +1,52 @@
+.gamelists_contianer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  height: 100%;
+  flex-wrap: wrap;
+  margin-left: 15%;
+}
+
+.game_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.game_container > img {
+  width: 100%;
+}
+
+.game_container:hover .overlay_game {
+  opacity: 1;
+}
+
+.overlay_game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18%;
+  height: 22vh;
+  cursor: pointer;
+  position: absolute;
+  background-color: #0005;
+  opacity: 0;
+}
+
+.overlay_game > p {
+  font-size: 1.2rem;
+}
+
+.overlay_game > i {
+  font-size: 4rem;
+}
+
+.overlay_game > p,
+i {
+  color: #fff;
+}

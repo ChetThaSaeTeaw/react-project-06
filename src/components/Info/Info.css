@@ -1,0 +1,40 @@
+:root {
+  --main_corlor: #c6a555;
+}
+
+.info_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5% 0;
+}
+
+.info_container > div > h5 {
+  color: var(--main_corlor);
+}
+
+.info_container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 18%;
+}
+
+.info_container > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 18%;
+  position: relative;
+  top: -40px;
+}
+
+.info_container > div > a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 4.5vh;
+  font-size: 0.9rem;
+}
